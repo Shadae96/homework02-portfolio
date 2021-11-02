@@ -2,13 +2,24 @@ header{
     display: flex;
     justify-content: space-between;
     background-color:lightskyblue}
-body{background-color: whitesmoke;}
+
+nav {
+    display:flex;
+    background-color: cornflowerblue;
+}
+
+nav a { color: #13293d;
+    padding: 14px 20px;
+    text-decoration: underline;
+    float:right;
+}
 
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 10px;
+    background-color: darkkhaki;
 }
 
 .work {
