@@ -1,25 +1,39 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color:lightskyblue}
+    background-color:black
+
+}
 
 nav {
     display:flex;
-    background-color: cornflowerblue;
+    float: right;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
 }
 
-nav a { color: #13293d;
-    padding: 14px 20px;
+nav a {color: white;
+    padding: 10px;
     text-decoration: underline;
     float:right;
+    font-size: 20px;
+    flex-wrap: wrap;
+    text-align: justify;
+    text-decoration-line: underline
+    ;
 }
+/* .headimage{background-image: -moz-linear-gradient();
+    width: 100px;;
+height: 30px;} */
+
 
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 10px;
-    background-color: darkkhaki;
+    margin: 0px;
+    background-color: rgb(198, 172, 198);
 }
 
 .work {
@@ -42,6 +56,7 @@ h1{
     font-size: 100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 200px;
+    width: 100%;
     color: red;
     padding-top: 0px;
     margin: 20px;
@@ -65,12 +80,55 @@ h3{
     margin: 20px;
 }
 p{
-    font-size: 18px;
+    font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 0px;
     color: black;
     padding-top: 0px;
     margin: 10px;}
+
+aside {
+        float: left;
+        width: 25%;
+        height: 100%;
+        background:rgb(145, 89, 145);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        padding-left: 10px;
+        }
+
+.aboutme { min-height: 210px;
+    margin-bottom: 50px;
+    border-right: purple;
+
+}
+.work{min-height: 100px;
+    margin-bottom: 50px;
+    border-right: purple;
+    padding-bottom: 30px;
+}
+.contactme {
+    min-height: 100px;
+    margin-bottom: 50px;
+    border-right: purple;
+    back: purple;
+}
+.backgroundimage h2 { display: block;
+    float: right;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    color: purple;
+    padding-top: 100px;
+
+}
+.abstract { background-image: url("../assets/sharon-mccutcheon-TMwHpCrU8D4-unsplash.jpg");
+    width: 100%;
+    min-height: 300px;
+    margin: 0px;
+    background-position: center;
+    background-size: cover;
+}
 
 @media screen and (max-width: 768px) 
 {
