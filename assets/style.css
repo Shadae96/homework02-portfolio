@@ -1,28 +1,46 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color:black
-
+    background-color:black;
+    min-height: 50px;
 }
 
-nav {
-    display:flex;
-    float: right;
-    background-color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+nav ul {list-style: none;}
+
+#nav { margin: 10px;
+    width: 100px;
+    font-family: sans-serif;
 }
 
-nav a {color: white;
-    padding: 10px;
-    text-decoration: underline;
-    float:right;
-    font-size: 20px;
-    flex-wrap: wrap;
-    text-align: justify;
-    text-decoration-line: underline
-    ;
+#nav li{
+    display:block;
+    width:120px;
+    float: :right;
+    margin-right: 15px;}
+
+#nav a {display:inline;
+    color:whitesmoke;
+    font-size: 30px;}
+
+/* 
+    list-style: none;
+    display: inline}
 }
+
+.nav { float:right;
+    margin-left:30px;
+    display: inline;}
+
+
+.nav {color:whitesmoke;
+font-size: 30px;
+font-family:'Times New Roman', Times, serif;
+display: inline;
+text-align: center
+list-style: none;
+} */
+
+
 /* .headimage{background-image: -moz-linear-gradient();
     width: 100px;;
 height: 30px;} */
@@ -36,13 +54,6 @@ main {
     background-color: rgb(198, 172, 198);
 }
 
-.work {
-    padding: 20px 10px;
-    border: 2px solid #bfbfbf;
-    background-color: #fff;
-  }
-
-
 .smaller-image{
     width:650px;
     display: flex;
@@ -53,12 +64,13 @@ main {
     background-color: darkgoldenrod;}
 
 h1{
-    font-size: 100px;
+    font-size: 130px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 200px;
     width: 100%;
-    color: red;
+    color:purple;
     padding-top: 0px;
+    padding-bottom: 0px;
     margin: 20px;
 }
 
@@ -128,6 +140,17 @@ aside {
     margin: 0px;
     background-position: center;
     background-size: cover;
+}
+
+.contactinfo ul li {color: black;
+    display: inline;
+    text-align: center;
+    font-size: 36px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-decoration: underline;
+    text-decoration-color:green;
+
 }
 
 @media screen and (max-width: 768px) 
