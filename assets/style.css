@@ -18,14 +18,16 @@ nav {
     background-color: black;
     float: right;
     width: 50%;
+    flex-wrap: wrap;
   }
   
   nav a {
     color: purple;
-    padding: 30px 30px;
+    padding: 200px 20px;
     text-decoration: underline;
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
     margin-right: 5px;
   }
 
@@ -152,6 +154,44 @@ aside {
     text-decoration-color:green;
 
 }
+#flexbox{display: flex;
+flex-wrap: wrap;
+margin-top: 3%;
+
+
+}
+
+.sample {flex: 1 0 300px;
+    padding: 10px;
+    text-align: center;
+    /* border-style: solid;
+    border-width: 1px; */
+
+}
+
+/* .sample .surfreport{
+    flex: 4 10 500px;
+
+} */
+
+.sample H3 {padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    background-color: black;
+    color: honeydew;
+}
+.sample p {padding: 1px;
+    margin: 0px;
+    background-color: transparent;
+    color: purple;
+
+
+}
+
+
+
+
+
 
 @media screen and (max-width: 768px) 
 {
