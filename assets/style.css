@@ -23,7 +23,7 @@ nav {
   
   nav a {
     color: purple;
-    padding: 200px 20px;
+    padding: 20px 20px;
     text-decoration: underline;
     text-align: center;
     font-size: 30px;
@@ -40,7 +40,6 @@ main {
     margin: 5px;
     background-color: rgb(198, 172, 198);}
 
-.aside {border: seagreen;}
 
 .smaller-image{
     width:650px;
@@ -51,6 +50,14 @@ main {
     margin: 15px;
     background-color: purple;
 }
+
+/* .sample.surfreport{ width:650px;
+    display: flex;
+    padding: 10px; 
+    border: cornflowerblue;
+    border-width: 12000px;
+    margin: 15px;
+} */
 
 h1{
     font-size: 130px;
@@ -92,6 +99,8 @@ p{
     padding-top: 0px;
     margin: 10px;}
 
+
+    /* Need to work on formatting aside to align up with elements in Main */
 aside {
         float: left;
         width: 25%;
@@ -160,6 +169,9 @@ aside {
     text-decoration-color:green;
 
 }
+
+/* Need to work on making first image larger than other photos */
+
 #flexbox{display: flex;
 flex-wrap: wrap;
 margin-top: 3%;
@@ -170,16 +182,11 @@ margin-top: 3%;
 .sample {flex: 1 0 300px;
     padding: 10px;
     text-align: center;
-
-.sample H3 {padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0px;
-    background-color: black;
-    color: honeydew;
 }
+
 .sample p {padding: 1px;
     margin: 0px;
-    background-color: transparent;
+    background-color:transparent;
     color: purple;
 
 
@@ -187,9 +194,6 @@ margin-top: 3%;
 
 main section p {margin-top: 5%;
 }
-
-
-
 
 @media screen and (max-width: 768px) 
 {
